@@ -14,7 +14,7 @@
     "deploy": "node scripts/deploy.js",
     "server": "live-server ./dist --port=8001",
     "start": "npm run build && npm-run-all --parallel watch:** server",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "watch:css": "chokidar 'src/**/*.scss' -c 'npm run build:css'",
     "watch:js": "npm run build:js -- --watch"
   },
