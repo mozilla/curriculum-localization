@@ -11,6 +11,7 @@
     "build": "shx rm -rf dist && shx mkdir dist && shx cp -r src/assets dist/assets && shx cp src/index.html dist/index.html && npm run build:css && npm run build:js",
     "build:css": "node-sass src/index.scss dist/compiled.css --output-style=compressed && postcss --use autoprefixer --autoprefixer.browsers 'last 3 versions' -o dist/compiled.css dist/compiled.css",
     "build:js": "webpack --optimize-minimize",
+    "deploy": "node scripts/deploy.js",
     "server": "live-server ./dist --port=8001",
     "start": "npm run build && npm-run-all --parallel watch:** server",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -51,6 +52,7 @@
     "nodegit": "^0.16.0",
     "npm-run-all": "^3.1.1",
     "postcss-cli-simple": "^1.0.1",
+    "shelljs": "^0.7.4",
     "shx": "^0.1.4",
     "webpack": "^1.13.2"
   }
