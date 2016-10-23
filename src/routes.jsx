@@ -13,7 +13,7 @@ const path = require("path");
 const ROOT = path.join("/", process.env.WEBSITE_ROOT || "");
 
 const routes = (
-  <Route path="/" component={ App }>
+  <Route path={ ROOT } component={ App }>
     <IndexRoute component={ Home } />
     <Route path="instructions" component={ Instructions } />
     <Route path="curriculum" component={ Curriculum } />
