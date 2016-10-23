@@ -10,7 +10,18 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: "/compiled.js"
   },
-  plugins:[],
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': JSON.stringify({
+        WEBSITE_ROOT: process.env.WEBSITE_ROOT
+      })
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+          warnings: false
+      }
+    })
+  ],
   module: {
     loaders: [{
       test: /\.js(x?)$/,

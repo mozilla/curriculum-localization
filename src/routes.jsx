@@ -8,6 +8,10 @@ import Instructions from "./pages/Instructions/Instructions.jsx";
 import Curriculum from "./pages/Curriculum/Curriculum.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 
+const path = require("path");
+
+const ROOT = path.join("/", process.env.WEBSITE_ROOT || "");
+
 const routes = (
   <Route path="/" component={ App }>
     <IndexRoute component={ Home } />

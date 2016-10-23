@@ -8,12 +8,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "shx rm -rf dist && shx mkdir dist && shx cp -r src/assets dist/assets && shx cp src/index.html dist/index.html && npm run build:css && npm run build:js",
+    "prebuild": "shx rm -rf dist && shx mkdir dist && shx cp -r src/assets dist/assets && shx cp src/index.html dist/index.html",
+    "build": "npm run build:css && npm run build:js",
     "build:css": "node-sass src/index.scss dist/compiled.css --output-style=compressed && postcss --use autoprefixer --autoprefixer.browsers 'last 3 versions' -o dist/compiled.css dist/compiled.css",
     "build:js": "webpack --optimize-minimize",
-    "deploy": "node scripts/deploy.js",
+    "deploy": "WEBSITE_ROOT=curriculum-localization node scripts/deploy.js",
     "server": "live-server ./dist --port=8001",
-    "start": "npm run build && npm-run-all --parallel watch:** server",
+    "start": "npm run prebuild && npm run build:css && npm-run-all --parallel watch:** server",
     "test": "echo \"Error: no test specified\"",
     "watch:css": "chokidar 'src/**/*.scss' -c 'npm run build:css'",
     "watch:js": "npm run build:js -- --watch"
