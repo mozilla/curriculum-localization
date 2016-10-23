@@ -1,3 +1,14 @@
 {
-  "CURRICULUM_MODULE_NAME": "Offline Icebreakers"
+  "CURRICULUM_MODULE_NAME": "Offline Icebreakers",
+
+  "INSTRUCTIONS": {
+    "CTA": {
+      "TITLE": "Join Our Campaign",
+      "CONTENT": "Help make valuable educational resources available to people in your community. Join the campaign to localize the { CURRICULUM_MODULE_NAME } module of our Web Literacy Curriculum."
+    },
+    "CAMPAIGN_INFO": {
+      "TITLE": "About the Campaign",
+      "CONTENT": "Stuff"
+    }
+  }
 }

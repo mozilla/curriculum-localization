@@ -1,7 +1,5 @@
 import React from "react";
 
-import Strings from "../../strings.json";
-
 class Header extends React.Component {
   render() {
     return (

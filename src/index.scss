@@ -30,5 +30,14 @@ img {
   max-width: 100%;
 }
 
-@import "./pages/Home/home";
+#content {
+  margin-top: -5.1rem;
+
+  .mui-panel {
+    padding-top: 3rem;
+  }
+}
+
 @import "./components/Header/header";
+@import "./pages/Home/home";
+@import "./pages/Instructions/instructions";
