@@ -4,11 +4,16 @@
   "INSTRUCTIONS": {
     "CTA": {
       "TITLE": "Join Our Campaign",
-      "CONTENT": "Help make valuable educational resources available to people in your community. Join the campaign to localize the { CURRICULUM_MODULE_NAME } module of our Web Literacy Curriculum."
+      "CONTENT": "Help make valuable educational resources available to people in your community. Join this campaign to localize the { CURRICULUM_MODULE_NAME } module of our Web Literacy Curriculum. <br> There will be special gifts for the first 20 participants!"
     },
     "CAMPAIGN_INFO": {
       "TITLE": "About the Campaign",
-      "CONTENT": "Stuff"
+      "CONTENT_1": "In an effort to teach the web to a global audience, Mozilla is excited to launch a campaign to continue localizing its curriculum, this time the <a href='https://learning.mozilla.org/activities/offline-icebreakers/'>{ CURRICULUM_MODULE_NAME }</a> module. With the support of the community the campaign hopes to conclude with the module translated and localized in a total of 12 languages.",
+      "CONTENT_2": ""
+    },
+    "CONTRIBUTE": {
+      "TITLE": "",
+      "CONTENT": ""
     }
   }
 }
