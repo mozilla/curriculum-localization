@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   handleTabChange(event) {
-    this.props.history.pushState(this.props.state, `/${ event.slug }`);
+    this.props.history.pushState(this.props.state, `/${ event.slug }/`);
   }
 
   componentDidUpdate() {
