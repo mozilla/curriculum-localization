@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "prebuild": "shx rm -rf dist && shx mkdir dist && shx cp -r src/assets dist/assets && shx cp src/index.html dist/index.html",
+    "prebuild": "shx rm -rf dist && shx mkdir dist && shx cp -r src/assets dist/assets && shx cp src/index.html dist/index.html && shx mkdir dist/about && shx cp -r src/index.html dist/about/index.html && shx mkdir dist/curriculum && shx cp -r src/index.html dist/curriculum/index.html && shx mkdir dist/contact && shx cp -r src/index.html dist/contact/index.html && shx mkdir dist/tools && shx cp -r src/index.html dist/tools/index.html",
     "build": "npm run build:css && npm run build:js",
     "build:css": "node-sass src/index.scss dist/compiled.css --output-style=compressed && postcss --use autoprefixer --autoprefixer.browsers 'last 3 versions' -o dist/compiled.css dist/compiled.css",
     "build:js": "webpack --optimize-minimize",

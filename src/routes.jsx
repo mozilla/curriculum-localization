@@ -10,8 +10,8 @@ const ROOT = path.join("/", process.env.WEBSITE_ROOT || "");
 
 const routes = (
   <Route path={ ROOT }>
-    <IndexRedirect to="about" />
-    <Route path=":tab" component={ App } />
+    <IndexRedirect to="about/" />
+    <Route path=":tab/" component={ App } />
   </Route>
 );
 
