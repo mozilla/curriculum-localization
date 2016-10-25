@@ -31,7 +31,7 @@ class App extends React.Component {
         <div id="content" className="container">
           <div className="container">
             <TabSwitcher initialTab={ this.props.params.tab || "about" } ref="tabSwitcher" onChange={ (...args) => this.handleTabChange(...args) }>
-              <Tab slug="about" name="About" iconDefault="/assets/icon-about.svg" iconActive="/assets/icon-about-blue.svg">
+              <Tab slug="about" name="About" iconDefault="../assets/icon-about.svg" iconActive="../assets/icon-about-blue.svg">
                 <About />
               </Tab>
               <Tab slug="tools" name="Tools">
