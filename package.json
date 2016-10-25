@@ -13,7 +13,7 @@
     "build:css": "node-sass src/index.scss dist/compiled.css --output-style=compressed && postcss --use autoprefixer --autoprefixer.browsers 'last 3 versions' -o dist/compiled.css dist/compiled.css",
     "build:js": "webpack --optimize-minimize",
     "deploy": "WEBSITE_ROOT=curriculum-localization node scripts/deploy.js",
-    "server": "live-server ./dist --port=8001",
+    "server": "live-server ./dist --port=8002",
     "start": "npm run prebuild && npm run build:css && npm-run-all --parallel watch:** server",
     "test": "echo \"Error: no test specified\"",
     "watch:css": "chokidar 'src/**/*.scss' -c 'npm run build:css'",

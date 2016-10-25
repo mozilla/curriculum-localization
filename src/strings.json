@@ -1,19 +1,39 @@
 {
   "CURRICULUM_MODULE_NAME": "Offline Icebreakers",
+  "CURRICULUM_MODULE_DESC": "This module contains puzzles and games that help learners activate and share their knowledge about the web, and don't require an internet connection.",
 
   "INSTRUCTIONS": {
     "CTA": {
-      "TITLE": "Join Our Campaign",
-      "CONTENT": "Help make valuable educational resources available to people in your community. Join this campaign to localize the { CURRICULUM_MODULE_NAME } module of our Web Literacy Curriculum. <br> There will be special gifts for the first 20 participants!"
+      "TITLE": "Join the November Campaign",
+      "CONTENT": "You can help make educational resources useful and relevant to people in your local community. This month we're focusing on the { CURRICULUM_MODULE_NAME } activities of our Web Literacy Curriculum."
     },
     "CAMPAIGN_INFO": {
       "TITLE": "About the Campaign",
-      "CONTENT_1": "In an effort to teach the web to a global audience, Mozilla is excited to launch a campaign to continue localizing its curriculum, this time the <a href='https://learning.mozilla.org/activities/offline-icebreakers/'>{ CURRICULUM_MODULE_NAME }</a> module. With the support of the community the campaign hopes to conclude with the module translated and localized in a total of 12 languages.",
-      "CONTENT_2": ""
+      "CONTENT": "In an effort to teach the web to a global audience, Mozilla is excited to launch a campaign to continue localizing its curriculum. This time we have picked the <a href='https://learning.mozilla.org/activities/offline-icebreakers/'>{ CURRICULUM_MODULE_NAME }</a> module. { CURRICULUM_MODULE_DESC } With the support of the community the campaign hopes to conclude with the module translated and localized in a total of 12 languages."
     },
     "CONTRIBUTE": {
-      "TITLE": "",
-      "CONTENT": ""
+      "TITLE": "How to Contribute",
+      "CONTENT": "Follow the steps below if you are interested in contributing:"
+    }
+  },
+
+  "TOOLS": {
+    "TITLE": "Tool Help",
+    "CONTENT": "Expand any one of the following to see instructions for how to localize using your preferred tool",
+
+    "THIMBLE": {
+      "STEPS": [
+        "Head to <a href=\"https://thimble.mozilla.org\" target=\"_blank\">Thimble</a> and sign in to your Webmaker account by clicking on the \"<strong>Sign In</strong>\" button on the top-right corner. <br>If you don't have a Webmaker account, you will need to create one by clicking on the \"<strong>Sign Up</strong>\" button and following the instructions.",
+        "To begin localizing a teaching activity, click on the link to the activity that you would like to localize from this list. You should now be in Thimble with the activity's content. <br>Modify each of the files to translate the content into your language. Don't forget to change the title of the activity into your language by clicking on the pencil icon in the top-left corner.",
+        "Once you have finished localizing the activity, you need to publish your version of the activity. Click on the \"<strong>Publish</strong>\" button on the top-right corner. <br>You can add an optional description for your activity and then click the \"<strong>Publish</strong>\" button in the dialog that pops up. <br>You can view your activity by clicking on the published link that will be shown.",
+        "Keep the link that shows up in the dialog handy. This is what you will be submitting to us. <br>Once you have localized all the activities you have chosen, follow the submission guidelines to submit your contribution."
+      ],
+      "TIPS": [
+        "To change the images in the activity, first you need to add it to Thimble. <br>Click on the \"<strong>+</strong>\" button in the top-left corner and select the \"<strong>Upload...</strong>\" option to open a dialog where you can select an image from your computer to add to Thimble and then refer to the image in your code just by using its name directly. <br>For e.g. to use the uploaded image named \"my-image.png\" in an image tag, first upload it using the dialog box mentioned above and then change the image tag's <em>src</em> attribute to be \"my-image.png\".",
+        "If you want to make changes to your project after you publish it, you can do so and re-publish the project by clicking on the \"<strong>Publish</strong>\" button on the top-right corner and then clicking the \"<strong>Update published version</strong>\" button.",
+        "Make sure you submit the published link for your localized activity. The link will look something like <em>https://thimbleprojects.org/my-username/1234</em>",
+        "If you see a \"<strong>Not Found</strong>\" page when you click on the published link, make sure you have an <em>index.html</em> page in your project."
+      ]
     }
   }
 }

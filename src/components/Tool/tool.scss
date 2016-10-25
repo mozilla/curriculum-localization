@@ -1,0 +1,22 @@
+.tool {
+  p {
+    display: inline-flex;
+  }
+
+  .step {
+    color: $firefox-orange;
+    font-weight: 400;
+    white-space: nowrap;
+    padding-right: 2rem;
+  }
+
+  .tips {
+    h5 {
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+  }
+}

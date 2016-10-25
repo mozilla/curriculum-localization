@@ -19,11 +19,23 @@ $bp-xl: #{map-get($grid-breakpoints, xl)}; // >= 1200px
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
   font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #f2f2f2;
+}
+
+#app, #main-container {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -32,6 +44,20 @@ img {
 
 #content {
   margin-top: -5.1rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  .mui-tab-switcher {
+    .mui-tabs {
+      .mui-btn {
+        background-color: #2e5c87;
+      }
+    }
+
+    h4 {
+      color: #2e5c87;
+    }
+  }
 
   .mui-panel {
     padding-top: 3rem;
@@ -39,5 +65,7 @@ img {
 }
 
 @import "./components/Header/header";
-@import "./pages/Home/home";
-@import "./pages/Instructions/instructions";
+@import "./components/Footer/footer";
+@import "./components/Tool/tool";
+@import "./pages/About/about";
+@import "./pages/Tools/tools";

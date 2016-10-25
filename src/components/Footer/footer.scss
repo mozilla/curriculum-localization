@@ -1,0 +1,136 @@
+#footer {
+  background-color: #4d4f53;
+  width: 100%;
+
+  :-moz-ui-invalid:not(output) {
+    box-shadow: none;
+  }
+
+  .mofooter {
+    color: $white;
+    text-align: center;
+    padding: 2.8125rem 0.625rem;
+
+    .icon-container {
+      margin: 1.25rem 0;
+
+      .icon {
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 300;
+        font-size: 1rem;
+
+        img {
+          width: 1.25rem;
+        }
+
+        .footer-icon {
+          opacity: 0.5;
+        }
+
+        a {
+          color: $white;
+          opacity: 0.5;
+          text-decoration: none;
+        }
+
+        &:hover {
+          a,
+          .footer-icon {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .footer-content {
+      max-width: 35.625rem;
+      margin: 0 auto;
+
+      p {
+        font-size: 0.875rem;
+        color: rgba($white, 0.5);
+
+        a {
+          color: rgba($white, 0.8);
+          cursor: pointer;
+
+          &:hover {
+            color: rgba($white, 1);
+          }
+        }
+      }
+    }
+
+    .icons {
+      margin-bottom: 1.25rem;
+    }
+
+    .logo {
+      margin-bottom: 1.25rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 0.0625rem solid #666;
+      display: inline-block;
+
+      @media screen and (min-width: $bp-md) {
+        border-bottom: 0;
+        border-right: 0.0625rem solid #666;
+        padding-bottom: 0;
+        padding-right: 1.25rem;
+        margin-bottom: 0;
+        margin-right: 1.25rem;
+      }
+    }
+
+    @media screen and (max-width: $bp-md) {
+      .icon-container {
+        &:first-child {
+          margin-top: 0;
+        }
+
+        &:last-child {
+          margin-bottom: 2.8125rem;
+        }
+
+        .footer-icon {
+          display: block;
+          margin: 0.375rem auto;
+        }
+      }
+    }
+
+    @media screen and (min-width: $bp-md) {
+      .footer-content {
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: center;
+
+        .footer-icon {
+          margin-left: 0.625rem;
+        }
+
+        p {
+          text-align: left;
+          width: calc(100% - 10.375rem);
+        }
+      }
+
+      .icon-container {
+        display: inline-block;
+        margin: 0 1.125rem;
+
+        .icon {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+
+          .footer-icon {
+            margin: 0 0.625rem 0 0;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}
