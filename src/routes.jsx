@@ -6,7 +6,7 @@ import App from "./pages/App.jsx";
 
 const path = require("path");
 
-const ROOT = path.join("/", process.env.WEBSITE_ROOT || "");
+const ROOT = path.join("/", process.env.WEBSITE_ROOT || "").replace(/\/?$/, "/");
 
 const routes = (
   <Route path={ ROOT }>
@@ -16,3 +16,4 @@ const routes = (
 );
 
 export default routes;
+export { ROOT };

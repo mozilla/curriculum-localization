@@ -1,6 +1,8 @@
 import React from "react";
+import { withRouter } from "react-router";
 import { Tab, TabSwitcher } from "mofo-ui";
 
+import { ROOT } from "../routes.jsx";
 import About from "./About/About.jsx";
 import Tools from "./Tools/Tools.jsx";
 import Curriculum from "./Curriculum/Curriculum.jsx";
@@ -15,7 +17,7 @@ class App extends React.Component {
   }
 
   handleTabChange(event) {
-    this.props.history.pushState(this.props.state, `/${ event.slug }/`);
+    this.props.router.push(`${ ROOT }${ event.slug }/`);
   }
 
   componentDidUpdate() {
@@ -52,4 +54,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default withRouter(App);
