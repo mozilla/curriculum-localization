@@ -18,8 +18,8 @@ class Text {
     return str;
   }
 
-  static html(str) {
-    return { __html: str };
+  static html(...args) {
+    return { __html: args.join(" ") };
   }
 }
 

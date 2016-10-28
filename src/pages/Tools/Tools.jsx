@@ -5,10 +5,11 @@ import Text from "../../text.js";
 import Tool from "../../components/Tool/Tool.jsx";
 
 class Tools extends React.Component {
+  generateToolHeader(number, name) {
+    return <span><strong>{ number }.</strong> { name }</span>;
+  }
+
   render() {
-    const thimbleHeader = <span><strong>1.</strong> Thimble</span>;
-    const ghPagesHeader = <span><strong>2.</strong> Github Pages</span>;
-    const googleDocsHeader = <span><strong>3.</strong> Google Docs</span>;
     const tools = Text.data.TOOLS;
 
     return (
@@ -19,7 +20,7 @@ class Tools extends React.Component {
             <p dangerouslySetInnerHTML={ Text.html(Text.data.TOOLS.CONTENT) }></p>
             <Collapse accordion={ true }>
               {/* How to use Thimble */}
-              <Panel header={ thimbleHeader }>
+              <Panel header={ this.generateToolHeader(1, "Thimble") }>
                 <Tool
                   id="thimble"
                   steps={ tools.THIMBLE.STEPS }
@@ -28,20 +29,20 @@ class Tools extends React.Component {
               </Panel>
 
               {/* How to use Github Pages */}
-              <Panel header={ ghPagesHeader }>
+              <Panel header={ this.generateToolHeader(2, "Github Pages") }>
                 <Tool
                   id="thimble"
-                  steps={ tools.THIMBLE.STEPS }
-                  tips={ tools.THIMBLE.TIPS }
+                  steps={ tools.GITHUB_PAGES.STEPS }
+                  tips={ tools.GITHUB_PAGES.TIPS }
                 />
               </Panel>
 
               {/* How to use Google Docs */}
-              <Panel header={ googleDocsHeader }>
+              <Panel header={ this.generateToolHeader(3, "Google Docs") }>
                 <Tool
                   id="thimble"
-                  steps={ tools.THIMBLE.STEPS }
-                  tips={ tools.THIMBLE.TIPS }
+                  steps={ tools.GOOGLE_DOCS.STEPS }
+                  tips={ tools.GOOGLE_DOCS.TIPS }
                 />
               </Panel>
             </Collapse>

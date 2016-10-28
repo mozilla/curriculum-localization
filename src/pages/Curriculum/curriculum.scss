@@ -1,0 +1,49 @@
+#curriculum {
+  .modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gh-pages {
+    display: flex;
+    color: #fff;
+
+    h4 {
+      color: #fff;
+    }
+
+    .blue-alert {
+      padding-top: 20px;
+      background-color: #3fbee0;
+
+      a {
+        color: #fff;
+        font-weight: 400;
+      }
+
+      .btn {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        border: solid 1px;
+      }
+
+      .btn-gh-pages {
+        background-color: #3fbee0;
+        transition: all .1s ease-out;
+
+        &:hover {
+          background: #fff;
+          color: #3fbee0;
+        }
+      }
+    }
+
+    .gh-pages-image {
+      img {
+        max-width: 150px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

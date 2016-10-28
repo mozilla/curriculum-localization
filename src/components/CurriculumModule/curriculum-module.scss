@@ -1,0 +1,59 @@
+.module-row {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  margin: 1rem;
+
+  .module-row-img {
+    margin: 0 auto;
+    border-bottom: solid 1px;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .module-row-text {
+    background-color: #fff;
+    padding-bottom: 1rem;
+
+    h4 {
+      padding: 1rem;
+    }
+
+    .module-row-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 20rem;
+      margin: 0 auto;
+
+      a {
+        color: #fff;
+      }
+
+      .btn {
+        margin-bottom: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+      }
+
+      .btn-thimble {
+        background-color: #2d9861;
+
+        &:hover {
+          background-color: #288754;
+        }
+      }
+
+      .btn-google {
+        background-color: #4386fc;
+
+        &:hover {
+          background-color: #2263D6;
+        }
+      }
+    }
+  }
+}
