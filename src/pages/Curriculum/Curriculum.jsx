@@ -25,7 +25,7 @@ class Curriculum extends React.Component {
               }>
               </div>
             </div>
-            <div className="modules">
+            <div id="modules">
               {
                 data.MODULES.map((module, index) => (
                   <CurriculumModule key={ index } { ...module } />
