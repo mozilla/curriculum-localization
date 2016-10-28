@@ -1,11 +1,13 @@
 #curriculum {
+  padding-bottom: 4rem;
+
   #modules {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .gh-pages {
+  #gh-pages {
     display: flex;
     color: #fff;
 

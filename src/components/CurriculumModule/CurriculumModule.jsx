@@ -5,13 +5,15 @@ class CurriculumModule extends React.Component {
     return (
       <div className="module-row">
         <div className="module-row-img">
-          <img { ...this.props.image } />
+          <a href={ this.props.links.VIEW } target="_blank">
+            <img { ...this.props.image } />
+          </a>
         </div>
         <div className="module-row-text">
-          <h4>{ this.props.title }</h4>
+          <h4><a href={ this.props.links.VIEW } target="_blank">{ this.props.title }</a></h4>
           <div className="module-row-buttons">
-            <a href={ this.props.links.THIMBLE }><div className="btn btn-primary btn-thimble">Localize on Thimble</div></a>
-            <a href={ this.props.links.GOOGLE_DOCS }><div className="btn btn-primary btn-google">Localize on Google Docs</div></a>
+            <a href={ this.props.links.THIMBLE } target="_blank"><div className="btn btn-primary btn-thimble">Localize on Thimble</div></a>
+            <a href={ this.props.links.GOOGLE_DOCS } target="_blank"><div className="btn btn-primary btn-google">Localize on Google Docs</div></a>
           </div>
         </div>
       </div>

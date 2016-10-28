@@ -16,7 +16,7 @@ class Curriculum extends React.Component {
             <h4 dangerouslySetInnerHTML={ Text.html(data.TITLE) }></h4>
             <p dangerouslySetInnerHTML={ Text.html(data.CONTENT) }></p>
             <p><em>For help on how to localize these activities using your preferred tool, <Link to="tools/">click here</Link></em></p>
-            <div className="gh-pages">
+            <div id="gh-pages">
               <div className="gh-pages-image alert"><img src="../assets/octocat.png" alt="Github's Octocat" /></div>
               <div className="alert blue-alert" dangerouslySetInnerHTML={
                 Text.html(Text.replace(data.GITHUB_PAGES, {

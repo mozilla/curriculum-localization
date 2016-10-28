@@ -39,7 +39,7 @@
     "GITHUB_PAGES": {
       "STEPS": [
         "First, you need to login to Github by heading to <a href=\"https://github.com\" target=\"_blank\">github.com</a> and signing in by clicking on the \"<strong>Sign In</strong>\" button in the top-right corner. <br> If you do not have a Github account, create one by clicking on the \"<strong>Sign Up</strong>\" button in the top-right corner and following the instructions.",
-        "Click on the link provided to open up the Github repository for the curriculum module you are going to localize. Create your own copy of the repository by clicking on the \"<strong>Fork</strong>\" button in the top-right section and then selecting your account in the dialog that pops up.",
+        "Click on the <a href=\"../curriculum#gh-pages\">link provided</a> to open up the Github repository for the curriculum module you are going to localize. Create your own copy of the repository by clicking on the \"<strong>Fork</strong>\" button in the top-right section and then selecting your account in the dialog that pops up.",
         "Each activity is a file with a name begining with \"<em>session</em>\" and ending with \"<em>.html</em>\". Click on the activity file that you want to localize and then click on the pencil icon in the right-hand side just above the file contents to start editing the file.",
         "After you have changed a file, to save your changes to that file, scroll down and click on the \"<strong>Commit Changes</strong>\" button.",
         "These activities can be viewed in your browser using a url in the format \"<em>https://&lt;your username&gt;.github.io/offline-icebreakers</em>\", where \"<em>&lt;your username&gt;</em>\" should be replaced with your Github username. <br>This will take you to a page that links to your activities. From those links ,click on the activity you just localized to see what it looks like. <br>You can also view the activity directly by using the url format \"<em>https://&lt;your username&gt;.github.io/offline-icebreakers/&lt;activity html file name&gt;</em>\", where \"<em>&lt;your username&gt;</em>\" should be replaced with your Github username and \"<em>&lt;activity html file name&gt;</em>\" should be replaced by the name of the activity file you just localized.",
@@ -56,7 +56,7 @@
     "GOOGLE_DOCS": {
       "STEPS": [
         "Login to Google by heading to <a href=\"google.com\" target=\"_blank\">Google's homepage</a> and clicking on the \"<strong>Sign In</strong>\" button in the top-right corner and following instructions.",
-        "Click on the link to open the Google Doc for the activity you want to localize from this list. Click on the \"<strong>File</strong>\" menu in the top-left corner and select \"<strong>Make a copy</strong>\". Name the activity in your language in the dialog box that pops up and select \"<strong>Ok</strong>\". This creates your own copy of the activity.",
+        "Click on the link to open the Google Doc for the activity you want to localize from <a href=\"../curriculum#modules\">this list</a>. Click on the \"<strong>File</strong>\" menu in the top-left corner and select \"<strong>Make a copy</strong>\". Name the activity in your language in the dialog box that pops up and select \"<strong>Ok</strong>\". This creates your own copy of the activity.",
         "You can begin localizing the content by editing the document you have just created.",
         "Once you have finished localizing the content, you need to change the share settings for it to be publicly visible. <br>To do this, click on the \"<strong>Share</strong>\" button in the top-right corner. In the dialog box that pops up, click on the \"<strong>Advanced</strong>\" link at the bottom-right corner of the dialog. Under the \"<strong>Who has access</strong>\" section, click on \"<strong>Change</strong>\" on the right and select the \"<strong>On - Anyone with the link</strong>\" option. Make sure the \"<strong>Access</strong>\" field at the bottom is set to \"<strong>Can View</strong>\" and then click on \"<strong>Save</strong>\". Click on \"<strong>Done</strong>\" to close the dialog box.",
         "Copy the link from the url bar in your browser to use for submission. <br>Once you have localized all the activities you have chosen, follow the submission guidelines to submit your contribution."
@@ -78,8 +78,9 @@
         "alt": "Web Mechanics Speed Dating image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session01-web-mechanics-speed-dating.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122034/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122034/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/1TOgoPzPc7BknPPAFDZwmEzGtNgk_iU00GgAOyDzGsPo/"
       }
     }, {
       "title": "HTML Thimble Tag Puzzle",
@@ -88,8 +89,9 @@
         "alt": "HTML Thimble Tag Puzzle image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session02-html-thimble-tag-puzzle.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122035/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122035/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/1mTe_trEkq2JZKrSSYIm6vjy6LCJLtDBeZKC2Dlj0UdQ/"
       }
     }, {
       "title": "Puzzles for Teaching HTML",
@@ -98,8 +100,9 @@
         "alt": "Puzzles for Teaching HTML image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session03-puzzles-for-teaching-html.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122036/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122036/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/1qkUO6_fVkOF6-3qjNugwj5gHm5hhL2GHA8RiRNEBVyo/"
       }
     }, {
       "title": "A Strong Wind Blows for Web Literacy",
@@ -108,8 +111,9 @@
         "alt": "A Strong Wind Blows for Web Literacy image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session04-a-strong-wind.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122038/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122038/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/1GIuwWQiQLYFsofUAKJhf4RN3jf94Ssty5Aqx4d4ttMc/"
       }
     }, {
       "title": "Web Literacy Bingo",
@@ -118,8 +122,9 @@
         "alt": "Web Literacy Bingo image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session05-web-literacy-bingo.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122039/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122039/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/1DcRRKqXBeQwSMwryOGcEjRfYI5VYQji6ZZ9ZLOE6b6s/"
       }
     }, {
       "title": "HTML Puzzle Boxes",
@@ -128,9 +133,16 @@
         "alt": "HTML Puzzle Boxes image"
       },
       "links": {
+        "VIEW": "https://gideonthomas.github.io/offline-icebreakers/session06-html-puzzle-box.html",
         "THIMBLE": "https://thimble.mozilla.org/projects/122040/remix",
-        "GOOGLE_DOCS": "https://thimble.mozilla.org/projects/122040/remix"
+        "GOOGLE_DOCS": "https://docs.google.com/document/d/13swyNCLp4f7vLeljEsZayxX4SVbr0DuVIdljQWOwl6E/"
       }
     }]
+  },
+
+  "CONTACT": {
+    "EMAIL": "gideon@mozillafoundation.org",
+    "GITHUB": "https://github.com/mozilla/curriculum-localization/issues/new",
+    "FORUM": "https://forum.learning.mozilla.org/c/curriculum/localizing-curriculum"
   }
 }

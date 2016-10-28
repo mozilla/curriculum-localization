@@ -1,0 +1,14 @@
+#contact {
+  padding-bottom: 4rem;
+
+  .contact-matrix {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .glyphicon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

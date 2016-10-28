@@ -9,7 +9,7 @@ class Instructions extends React.Component {
     const CURRICULUM_MODULE_DESC = Text.data.CURRICULUM_MODULE_DESC;
 
     return (
-      <div className="container">
+      <div id="about" className="container">
         <div className="row">
           <div className="col-xs-12 col-lg-10 push-lg-1">
             <div className="row">
