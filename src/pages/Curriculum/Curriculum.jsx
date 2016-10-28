@@ -14,7 +14,7 @@ class Curriculum extends React.Component {
         <div className="row">
           <div className="col-xs-12 col-lg-10 push-lg-1">
             <h4 dangerouslySetInnerHTML={ Text.html(data.TITLE) }></h4>
-            <p dangerouslySetInnerHTML={ Text.html(data.content) }></p>
+            <p dangerouslySetInnerHTML={ Text.html(data.CONTENT) }></p>
             <p><em>For help on how to localize these activities using your preferred tool, <Link to="tools/">click here</Link></em></p>
             <div className="gh-pages">
               <div className="gh-pages-image alert"><img src="../assets/octocat.png" alt="Github's Octocat" /></div>
