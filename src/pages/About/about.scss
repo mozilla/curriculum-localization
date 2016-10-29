@@ -22,3 +22,37 @@
 #campaign-info {
   padding-top: 2rem;
 }
+
+#how-to-contribute {
+  p {
+    margin-bottom: 0.3rem;;
+  }
+
+  .guidelines {
+    display: flex;
+    flex-direction: column;
+
+    .single-guideline {
+      padding: 10px 5px;
+      margin-top: 0.2rem;
+      background-color: rgba($developer-blue, 0.75);
+      color: #fff;
+      border-left: solid 3px #3F51B5;
+      font-weight: 300;
+
+      a, a:visited {
+        color: #fff;
+        font-weight: 400;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+#submission-guidelines {
+  padding-top: 2rem;
+}

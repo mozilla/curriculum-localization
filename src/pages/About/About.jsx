@@ -3,6 +3,13 @@ import React from "react";
 import Text from "../../text.js";
 
 class Instructions extends React.Component {
+  generateGuidelineHtml(guideline, index) {
+    return (
+      <div key={ index } className="single-guideline" dangerouslySetInnerHTML={ Text.html(guideline) }>
+      </div>
+    );
+  }
+
   render() {
     const text = Text.data.INSTRUCTIONS;
     const CURRICULUM_MODULE_NAME = Text.data.CURRICULUM_MODULE_NAME;
@@ -38,11 +45,24 @@ class Instructions extends React.Component {
               {/* How to Contribute */}
               <div id="how-to-contribute" className="col-xs-12 col-md-12 col-lg-10">
                 <h4 dangerouslySetInnerHTML={ Text.html(text.CONTRIBUTE.TITLE) }></h4>
-                <p dangerouslySetInnerHTML={
-                  Text.html(
-                    text.CONTRIBUTE.CONTENT
-                  )
-                }></p>
+                <p dangerouslySetInnerHTML={ Text.html(text.CONTRIBUTE.CONTENT) }></p>
+                <div className="guidelines">
+                  {
+                    text.CONTRIBUTE.GUIDELINES.map((...args) => this.generateGuidelineHtml(...args))
+                  }
+                </div>
+              </div>
+
+              {/* Submission Guidelines */}
+              <div id="submission-guidelines" className="col-xs-12 col-md-12 col-lg-10">
+                <h4 dangerouslySetInnerHTML={ Text.html(text.SUBMIT.TITLE) }></h4>
+                <p dangerouslySetInnerHTML={ Text.html(text.SUBMIT.CONTENT) }></p>
+              </div>
+
+              {/* Rewards */}
+              <div id="rewards" className="col-xs-12 col-md-12 col-lg-10">
+                <h4 dangerouslySetInnerHTML={ Text.html(text.REWARDS.TITLE) }></h4>
+                <p dangerouslySetInnerHTML={ Text.html(text.REWARDS.CONTENT) }></p>
               </div>
 
             </div>

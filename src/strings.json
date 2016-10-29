@@ -1,6 +1,6 @@
 {
   "CURRICULUM_MODULE_NAME": "Offline Icebreakers",
-  "CURRICULUM_MODULE_DESC": "This module contains puzzles and games that help learners activate and share their knowledge about the web, and don't require an internet connection.",
+  "CURRICULUM_MODULE_DESC": "This module contains <strong>6 puzzles and games</strong> that help learners activate and share their knowledge about the web, and don't require an internet connection.",
 
   "INSTRUCTIONS": {
     "CTA": {
@@ -9,11 +9,28 @@
     },
     "CAMPAIGN_INFO": {
       "TITLE": "About the Campaign",
-      "CONTENT": "In an effort to teach the web to a global audience, Mozilla is excited to launch a campaign to continue localizing its curriculum. This time we have picked the <a href='https://learning.mozilla.org/activities/offline-icebreakers/'>{ CURRICULUM_MODULE_NAME }</a> module. { CURRICULUM_MODULE_DESC } With the support of the community the campaign hopes to conclude with the module translated and localized in a total of 12 languages."
+      "CONTENT": "In an effort to teach the web to a global audience, Mozilla is excited to launch a campaign to continue localizing its curriculum. This time we have picked the <a href='https://learning.mozilla.org/activities/offline-icebreakers/'>{ CURRICULUM_MODULE_NAME }</a> module. { CURRICULUM_MODULE_DESC } With the support of the community the campaign hopes to conclude with the module translated and localized in a total of <strong>12 languages</strong>. To show our appreciation to our contributors, we will also provide gifts as <a href=\"../about#rewards\">detailed below</a>."
     },
     "CONTRIBUTE": {
       "TITLE": "How to Contribute",
-      "CONTENT": "Follow the steps below if you are interested in contributing:"
+      "CONTENT": "If you are interested in helping out, fill out <a href=\"https://goo.gl/forms/lMllAl45qYo1v6av1\" target=\"_blank\">this short form</a> to let us know that you will be localizing the activities. Once you have signed up, you can begin localizing. Here are some guidelines to keep in mind about the process before you begin:",
+      "GUIDELINES": [
+        "Our activities exist in three different formats. You only need to localize each activity in one format. We encourage you to pick the tool which you are most comfortable using.",
+        "We recommend reading the instructions on how to use one of the tools - Thimble, Github or Google Docs, head over to our <a href=\"../tools\">Tool Help</a> section.",
+        "We appreciate and value any contribution that you may provide. This means that you are not required to localize all the activities in your language for your contribution to count. Work with as many activities that you are comfortable with and you may choose to localize specific activities that resonate with you and/or your community.",
+        "You may wish to collaborate with others. If we encounter more than one person showing interest in participating in a specific locale, we might connect you to collaborate on this localization effort together.",
+        "Do not hesitate to ask us questions. We want to support you in every way we can as you participate in this campaign. Check out how you can contact us by looking at our <a href=\"../contact\">Contact section</a>."
+      ]
+    },
+
+    "SUBMIT": {
+      "TITLE": "How to Submit your Content",
+      "CONTENT": "We are aiming for a completion date of <strong>November 25, 2016</strong> and hope to receive all localized curriculum by then. Once you have finished localizing the activities, please <a href=\"https://goo.gl/forms/FU7BMpK7yXLANayF3\" target=\"_blank\">fill out this form</a> to submit your content (only submit the URLs). In this form, we will also ask you about your experience in this campaign, what you liked and what you would like to see improve for the next time."
+    },
+
+    "REWARDS": {
+      "TITLE": "Rewards",
+      "CONTENT": "We appreciate the time and effort you put in to make it possible to share teaching resources in your community. All participants will receive a <strong>Mozilla Curriculum Localization certificate</strong> that acknowledges your contribution to this campaign as a member of the Learning Network. <br><br>Furthermore, as a token of our appreciation, the <strong>first 20 participants</strong> in this campaign who submit at least three or more fully localized activities will recieve a special gift."
     }
   },
 
@@ -26,7 +43,7 @@
         "Head to <a href=\"https://thimble.mozilla.org\" target=\"_blank\">Thimble</a> and sign in to your Webmaker account by clicking on the \"<strong>Sign In</strong>\" button on the top-right corner. <br>If you don't have a Webmaker account, you will need to create one by clicking on the \"<strong>Sign Up</strong>\" button and following the instructions.",
         "To begin localizing a teaching activity, click on the link to the activity that you would like to localize from <a href=\"../curriculum#modules\">this list</a>. You should now be in Thimble with the activity's content. <br>Modify each of the files to translate the content into your language. Don't forget to change the title of the activity into your language by clicking on the pencil icon in the top-left corner.",
         "Once you have finished localizing the activity, you need to publish your version of the activity. Click on the \"<strong>Publish</strong>\" button on the top-right corner. <br>You can add an optional description for your activity and then click the \"<strong>Publish</strong>\" button in the dialog that pops up. <br>You can view your activity by clicking on the published link that will be shown.",
-        "Keep the link that shows up in the dialog handy. This is what you will be submitting to us. <br>Once you have localized all the activities you have chosen, follow the submission guidelines to submit your contribution."
+        "Keep the link that shows up in the dialog handy. This is what you will be submitting to us. <br>Once you have localized all the activities you have chosen, follow the <a href=\"../about#submission-guidelines\">submission guidelines</a> to submit your contribution."
       ],
       "TIPS": [
         "To change the images in the activity, first you need to add it to Thimble. <br>Click on the \"<strong>+</strong>\" button in the top-left corner and select the \"<strong>Upload...</strong>\" option to open a dialog where you can select an image from your computer to add to Thimble and then refer to the image in your code just by using its name directly. <br>For e.g. to use the uploaded image named \"my-image.png\" in an image tag, first upload it using the dialog box mentioned above and then change the image tag's <em>src</em> attribute to be \"my-image.png\".",
@@ -43,7 +60,7 @@
         "Each activity is a file with a name begining with \"<em>session</em>\" and ending with \"<em>.html</em>\". Click on the activity file that you want to localize and then click on the pencil icon in the right-hand side just above the file contents to start editing the file.",
         "After you have changed a file, to save your changes to that file, scroll down and click on the \"<strong>Commit Changes</strong>\" button.",
         "These activities can be viewed in your browser using a url in the format \"<em>https://&lt;your username&gt;.github.io/offline-icebreakers</em>\", where \"<em>&lt;your username&gt;</em>\" should be replaced with your Github username. <br>This will take you to a page that links to your activities. From those links ,click on the activity you just localized to see what it looks like. <br>You can also view the activity directly by using the url format \"<em>https://&lt;your username&gt;.github.io/offline-icebreakers/&lt;activity html file name&gt;</em>\", where \"<em>&lt;your username&gt;</em>\" should be replaced with your Github username and \"<em>&lt;activity html file name&gt;</em>\" should be replaced by the name of the activity file you just localized.",
-        "Keep the link that you used to view your localized activity handy. This is what you will be submitting. You will therefore submit the same number of links as the number of activity files you have localized. <br>Once you have localized all the activities you have chosen, follow the submission guidelines to submit your contribution."
+        "Keep the link that you used to view your localized activity handy. This is what you will be submitting. You will therefore submit the same number of links as the number of activity files you have localized. <br>Once you have localized all the activities you have chosen, follow the <a href=\"../about#submission-guidelines\">submission guidelines</a> to submit your contribution."
       ],
       "TIPS": [
         "Don't forget to click on the \"<strong>Commit changes</strong>\" button at the bottom of the page to save your changes after you finish changing the file.",
@@ -59,7 +76,7 @@
         "Click on the link to open the Google Doc for the activity you want to localize from <a href=\"../curriculum#modules\">this list</a>. Click on the \"<strong>File</strong>\" menu in the top-left corner and select \"<strong>Make a copy</strong>\". Name the activity in your language in the dialog box that pops up and select \"<strong>Ok</strong>\". This creates your own copy of the activity.",
         "You can begin localizing the content by editing the document you have just created.",
         "Once you have finished localizing the content, you need to change the share settings for it to be publicly visible. <br>To do this, click on the \"<strong>Share</strong>\" button in the top-right corner. In the dialog box that pops up, click on the \"<strong>Advanced</strong>\" link at the bottom-right corner of the dialog. Under the \"<strong>Who has access</strong>\" section, click on \"<strong>Change</strong>\" on the right and select the \"<strong>On - Anyone with the link</strong>\" option. Make sure the \"<strong>Access</strong>\" field at the bottom is set to \"<strong>Can View</strong>\" and then click on \"<strong>Save</strong>\". Click on \"<strong>Done</strong>\" to close the dialog box.",
-        "Copy the link from the url bar in your browser to use for submission. <br>Once you have localized all the activities you have chosen, follow the submission guidelines to submit your contribution."
+        "Copy the link from the url bar in your browser to use for submission. <br>Once you have localized all the activities you have chosen, follow the <a href=\"../about#submission-guidelines\">submission guidelines</a> to submit your contribution."
       ],
       "TIPS": [
         "Modify the \"<strong>Share</strong>\" settings to allow collaboration with other community members."
