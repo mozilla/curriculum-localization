@@ -13,7 +13,7 @@
     },
     "CONTRIBUTE": {
       "TITLE": "How to Contribute",
-      "CONTENT": "If you are interested in helping out, fill out <a href=\"https://goo.gl/forms/lMllAl45qYo1v6av1\" target=\"_blank\">this short form</a> to let us know that you will be localizing the activities. Once you have signed up, you can begin localizing. Here are some guidelines to keep in mind about the process before you begin:",
+      "CONTENT": "If you are interested in helping out, fill out <a href=\"https://goo.gl/forms/lMllAl45qYo1v6av1\" target=\"_blank\">this short form</a> to let us know that you will be localizing the activities. Once you have signed up, you can begin localizing the <a href=\"../curriculum\">activities listed here</a>. Here are some guidelines to keep in mind about the process before you begin:",
       "GUIDELINES": [
         "Our activities exist in three different formats. You only need to localize each activity in one format. We encourage you to pick the tool which you are most comfortable using.",
         "We recommend reading the instructions on how to use one of the tools - Thimble, Github or Google Docs, head over to our <a href=\"../tools\">Tool Help</a> section.",
